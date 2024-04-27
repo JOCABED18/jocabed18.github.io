@@ -1,0 +1,153 @@
+.contenedor-imagen {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 600px; /* Ajusta el ancho según tus necesidades */
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #F0E4FF;
+}
+.contenedor-imagen img {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+h2 {
+    text-align: center;
+}
+.seccion {
+    display: none; /* Oculta todas las secciones inicialmente */
+}
+#musica {
+    display: none; /* Oculta la sección de álbumes al inicio */
+}
+.imagenes-container img {
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    border: 2px solid #6B3E9C;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.imagenes-container {
+    display: flex;
+    flex-wrap: wrap; /* Ajusta el flujo de las imágenes */
+}
+
+.image-item {
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    margin: 10px;
+    text-align: center; /* Centra el texto debajo de la imagen */
+}
+#biografia {
+    padding: 20px;
+    font-family: italic;
+    text-align: justify;
+    color: #9B00FF;
+}
+#temas {
+    color: #9B00FF;
+}
+#musica {
+    color: #9B00FF;
+}
+#fotos {
+    color: #9B00FF;
+}
+img {
+    float: left; /* La imagen se posicionará a la izquierda */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+#temas, #musica, #fotos {
+    padding: 20px;
+    font-family: italic;
+}
+
+#temas ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#temas li {
+    margin-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    display: block;
+    background: #d8b5fb;
+    padding: 5px 50px 3px;
+    color: #000000;
+    border-bottom: 3px solid #6B3E9C;
+}
+
+nav {
+    background-color: #E3A0FF;
+    color: #000000;
+    text-align: center;
+    padding: 15px 20px;
+    border-bottom: 3px solid #6B3E9C;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+    
+
+.prev,
+.next,
+.dot {
+    display: none;
+}
+
+/* Centrar las imágenes en el carrusel */
+.mySlides {
+    display: none;
+    margin: 0 auto; /* Esto centrará la imagen horizontalmente */
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+#slideshow {
+    max-width: 800px; /* Ajusta el ancho según tus necesidades */
+    margin: auto;
+    position: relative;
+}
+.ccc {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+#aside {
+    border: 3px solid #8C00F0;
+    width: 40%;
+    padding: 15px;
+    text-align: justify;
+    margin-right: 20px; /* Agrega margen derecho para separar del contenido */
+}
+
+#aside img {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
